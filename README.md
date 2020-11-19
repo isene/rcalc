@@ -1,10 +1,13 @@
-# RPN calculator for the command line This little function for the command
-line (specifically I am using zsh) opens up a large array of mathematical
-functions by using
+# RPN calculator for the command line
+
+This little function for the command line (specifically I am using zsh) opens
+up a large array of mathematical functions by using
 [raven](https://web.archive.org/web/20070828224224/http://mythago.net/language.html)
 as the engine.
 
+
 ## Usage
+
 Put "rcalc" into your path and source it in your shell's rc file (like
 `.zshrc`): `source /path/to/rcalc`
 
@@ -18,7 +21,9 @@ postfix notation. Examples
 = "30 tan 40 cos / 5 + 4 sqrt /"  (yields 7.302044)
 ```
 
+
 ## Words
+
 The words (operators) you can use in your calculations are:
 
 ```
@@ -34,7 +39,9 @@ language](https://web.archive.org/web/20070828225150/http://mythago.net/manual.h
 (check that link for explanation of the above list of words), but the ones
 listed here are the relevant words for this cli calculator.
 
+
 ## Background 
+
 Raven is a fully fledged programming language packed into a binary that is
 supplied as a binary with this project (check the archived raven page for the
 source). It is a Forth-like language with features also from Python and Perl.
