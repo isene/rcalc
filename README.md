@@ -22,6 +22,18 @@ postfix notation. Examples:
 = "3 asinh sqrt 3 pow exp10 log"  (yields 8.145936)
 ```
 
+Now you don't need to put the calculation in quotes as long as you escape the
+multiplication symbol '*' like this:
+
+```
+= 3 4 \*
+```
+Or by using the word "mul" instead:
+
+```
+= 3 4 mul
+```
+
 
 ## Words
 
