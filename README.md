@@ -14,11 +14,12 @@ rc file (like `.zshrc`): `source /path/to/rcalc`
 Then you can calculate anything by simply starting with an equal sign and put
 the calculations in quotes behind it. Remember, this is an
 [rpn](ihttps://en.wikipedia.org/wiki/Reverse_Polish_notation) calculator using
-postfix notation. Examples
+postfix notation. Examples:
 
 ```
 = "3 4 +"                         (yields 7)
 = "30 tan 40 cos / 5 + 4 sqrt /"  (yields 7.302044)
+= "3 asinh sqrt 3 pow exp10 log"  (yields 8.145936)
 ```
 
 
