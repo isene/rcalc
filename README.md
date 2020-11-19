@@ -16,7 +16,6 @@ postfix notation. Examples
 ```
 = "3 4 +"                         (yields 7)
 = "30 tan 40 cos / 5 + 4 sqrt /"  (yields 7.302044)
-= "
 ```
 
 ## Words
