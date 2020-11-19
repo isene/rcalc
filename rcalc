@@ -1,0 +1,5 @@
+# This is a simple rpn calculator on the command line using "raven"
+function = {
+	echo $1" print" | raven ; echo "\r"
+}
+
