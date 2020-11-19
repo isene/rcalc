@@ -35,14 +35,14 @@ language](https://web.archive.org/web/20070828225150/http://mythago.net/manual.h
 (check that link for explanation of the above list of words), but the ones
 listed here are the relevant words for this cli calculator.
 
-## Background
+## Background 
 Raven is a fully fledged programming language packed into a binary that is
-supplied with this project. It is a Forth-like language with features also
-from Python and Perl. The syntax is simple and sane and it presents a
-wonderful way of tackling complex problems by building "words" just like Forth
-does - but in a more modern way. Raven was created by Sean Pringle and is a 
-now a defunct project. I am hoping to poke Sean to the point where he revives
-Raven.
+supplied as a binary with this project (check the archived raven page for the
+source). It is a Forth-like language with features also from Python and Perl.
+The syntax is simple and sane and it presents a wonderful way of tackling
+complex problems by building "words" just like Forth does - but in a more
+modern way. Raven was created by Sean Pringle and is a now a defunct project.
+I am hoping to poke Sean to the point where he revives Raven.
 
 Raven is licensed under GPL v2. The rest of this code snippet is public
 domain.
