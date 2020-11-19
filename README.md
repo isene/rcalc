@@ -8,8 +8,8 @@ as the engine.
 
 ## Usage
 
-Put "rcalc" into your path and source it in your shell's rc file (like
-`.zshrc`): `source /path/to/rcalc`
+Put "raven" into a bin directory in your path. Source "rcalc" in your shell's
+rc file (like `.zshrc`): `source /path/to/rcalc`
 
 Then you can calculate anything by simply starting with an equal sign and put
 the calculations in quotes behind it. Remember, this is an
