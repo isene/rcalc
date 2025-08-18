@@ -1,5 +1,9 @@
 # RPN calculator for the command line
 
+[![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
+[![GitHub stars](https://img.shields.io/github/stars/isene/rcalc.svg)](https://github.com/isene/rcalc/stargazers)
+[![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
+
 This little function for the command line (specifically I am using zsh) opens
 up a large array of mathematical functions by using
 [raven](https://web.archive.org/web/20070828224224/http://mythago.net/language.html)
