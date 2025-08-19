@@ -1,3 +1,5 @@
+<img src="img/rcalc_logo.svg" align="left" width="150" height="150" alt="rcalc Logo">
+
 # RPN calculator for the command line
 
 [![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)

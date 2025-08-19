@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="150" height="150" fill="#1a1f2e"/>
+  
+  <!-- RPN Stack visualization -->
+  <g transform="translate(75, 60)">
+    <!-- Stack registers -->
+    <g font-family="monospace">
+      <!-- T register -->
+      <rect x="-40" y="-40" width="80" height="18" fill="#374151" stroke="#6b7280" stroke-width="1" rx="2" opacity="0.6"/>
+      <text x="-35" y="-28" font-size="6" fill="#9ca3af">T:</text>
+      <text x="35" y="-28" font-size="7" fill="#9ca3af" text-anchor="end">0.0000</text>
+      
+      <!-- Z register -->
+      <rect x="-40" y="-20" width="80" height="18" fill="#374151" stroke="#6b7280" stroke-width="1" rx="2" opacity="0.7"/>
+      <text x="-35" y="-8" font-size="6" fill="#cbd5e0">Z:</text>
+      <text x="35" y="-8" font-size="7" fill="#cbd5e0" text-anchor="end">2.7183</text>
+      
+      <!-- Y register -->
+      <rect x="-40" y="0" width="80" height="18" fill="#1f2937" stroke="#60a5fa" stroke-width="1.5" rx="2" opacity="0.9"/>
+      <text x="-35" y="12" font-size="6" fill="#60a5fa">Y:</text>
+      <text x="35" y="12" font-size="7" fill="#60a5fa" text-anchor="end">3.1416</text>
+      
+      <!-- X register (active) -->
+      <rect x="-40" y="20" width="80" height="18" fill="#1e40af" stroke="#3b82f6" stroke-width="2" rx="2">
+        <animate attributeName="fill" values="#1e40af;#2563eb;#1e40af" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="-35" y="32" font-size="6" fill="#fff" font-weight="bold">X:</text>
+      <text x="35" y="32" font-size="8" fill="#fff" text-anchor="end" font-weight="bold">42.0000</text>
+    </g>
+    
+    <!-- Input cursor -->
+    <rect x="36" y="28" width="1" height="8" fill="#fff">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Ruby gem -->
+  <g transform="translate(25, 30)" opacity="0.8">
+    <polygon points="0,-6 4,-3 4,3 0,6 -4,3 -4,-3" fill="#dc2626" stroke="#991b1b" stroke-width="1"/>
+    <text x="0" y="14" font-family="monospace" font-size="4" fill="#dc2626" text-anchor="middle">Ruby</text>
+  </g>
+  
+  <!-- Operation buttons -->
+  <g transform="translate(75, 110)">
+    <g font-family="monospace" font-size="6" text-anchor="middle">
+      <!-- Basic operations -->
+      <rect x="-35" y="0" width="15" height="12" fill="#475569" stroke="#6b7280" stroke-width="1" rx="1"/>
+      <text x="-27.5" y="8" fill="#fff">+</text>
+      
+      <rect x="-17" y="0" width="15" height="12" fill="#475569" stroke="#6b7280" stroke-width="1" rx="1"/>
+      <text x="-9.5" y="8" fill="#fff">-</text>
+      
+      <rect x="1" y="0" width="15" height="12" fill="#475569" stroke="#6b7280" stroke-width="1" rx="1"/>
+      <text x="8.5" y="8" fill="#fff">×</text>
+      
+      <rect x="19" y="0" width="15" height="12" fill="#475569" stroke="#6b7280" stroke-width="1" rx="1"/>
+      <text x="26.5" y="8" fill="#fff">÷</text>
+    </g>
+    
+    <!-- ENTER key -->
+    <rect x="-20" y="15" width="40" height="12" fill="#22c55e" stroke="#16a34a" stroke-width="1" rx="1">
+      <animate attributeName="fill" values="#22c55e;#4ade80;#22c55e" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="0" y="23" font-family="monospace" font-size="6" fill="#fff" text-anchor="middle" font-weight="bold">ENTER</text>
+  </g>
+  
+  <!-- Stack operations visualization -->
+  <g transform="translate(120, 50)" opacity="0.6">
+    <text x="0" y="0" font-family="monospace" font-size="4" fill="#60a5fa">Stack:</text>
+    <text x="0" y="7" font-family="monospace" font-size="3.5" fill="#94a3b8">• SWAP</text>
+    <text x="0" y="13" font-family="monospace" font-size="3.5" fill="#94a3b8">• DROP</text>
+    <text x="0" y="19" font-family="monospace" font-size="3.5" fill="#94a3b8">• DUP</text>
+    <text x="0" y="25" font-family="monospace" font-size="3.5" fill="#94a3b8">• ROT</text>
+  </g>
+  
+  <!-- RPN notation example -->
+  <g transform="translate(30, 100)" opacity="0.7">
+    <text x="0" y="0" font-family="monospace" font-size="4" fill="#fbbf24">RPN:</text>
+    <text x="0" y="7" font-family="monospace" font-size="3.5" fill="#fde68a">3 4 + 2 ×</text>
+    <text x="0" y="13" font-family="monospace" font-size="3.5" fill="#fde68a">= 14</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="75" y="135" font-family="monospace" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">rcalc</text>
+  <text x="75" y="145" font-family="monospace" font-size="7" fill="#94a3b8" text-anchor="middle">RPN Calculator in Ruby</text>
+</svg>
