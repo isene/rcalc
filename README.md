@@ -5,6 +5,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/rcalc_logo.svg" align="left" width="150" height="150" alt="rcalc Logo">
+<br clear="left"/>
 
 This little function for the command line (specifically I am using zsh) opens
 up a large array of mathematical functions by using
